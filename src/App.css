@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+html {
+  background-color: #424242;
+  color: #f0f0f0;
+}
+
+span.bungee { font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header { font-size: 60px; font-family: "Trebuchet MS", Helvetica, sans-serif; }
+.subheader { font-size: 20px; font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+a.link {
+  text-decoration: none;
+  color: rgba(240,128,128,1);
+}
+
+a.link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid rgba(240,128,128,1);
+}
+
+.select-container select {
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  font-size: 30px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  cursor: pointer;
+  color: rgba(240,128,128,1);
+}
+
+.select-container select:focus {
+  outline: none;
+}
