@@ -7,7 +7,7 @@ html {
   color: #f0f0f0;
 }
 
-span.bungee { font-family: "Trebuchet MS", Helvetica, sans-serif; }
+span { font-family: "Trebuchet MS", Helvetica, sans-serif; }
 
 .app {
   max-width: 720px;
