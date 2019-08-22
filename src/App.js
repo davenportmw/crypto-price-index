@@ -27,21 +27,21 @@ class App extends Component {
   }
 
   getEthereumData () {
-	  fetch(`https://min-api.cryptocompare.com/data/histoday?fsym=ETH&tsym=${this.state.currency}&limit=30`)
+	  fetch(`https://min-api.cryptocompare.com/data/histoday?fsym=ETH&tsym=${this.state.currency}&limit=365`)
 	  .then(response => response.json())
 	  .then(EthereumData => this.setState({EthereumData}))
 	  .catch(e => e);
   }
 
   getLitecoinData () {
-	  fetch(`https://min-api.cryptocompare.com/data/histoday?fsym=LTC&tsym=${this.state.currency}&limit=30`)
+	  fetch(`https://min-api.cryptocompare.com/data/histoday?fsym=LTC&tsym=${this.state.currency}&limit=365`)
 	  .then(response => response.json())
 	  .then(LitecoinData => this.setState({LitecoinData}))
 	  .catch(e => e);
   }
 
   getBitcoinData () {
-	  fetch(`https://min-api.cryptocompare.com/data/histoday?fsym=BTC&tsym=${this.state.currency}&limit=30`)
+	  fetch(`https://min-api.cryptocompare.com/data/histoday?fsym=BTC&tsym=${this.state.currency}&limit=365`)
 	  .then(response => response.json())
 	  .then(BitcoinData => this.setState({BitcoinData}))
 	  .catch(e => e);
